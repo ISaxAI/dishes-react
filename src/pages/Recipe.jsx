@@ -1,7 +1,7 @@
 import {useParams} from "react-router-dom";
 import {useEffect, useState} from "react";
 import {getMealById} from "../api";
-import {Preloader} from "../component/Preloader";
+import {Preloader} from "../component/Preloader/Preloader";
 
 function Recipe() {
     const [recipe, setRecipe] = useState({})
@@ -45,8 +45,11 @@ function Recipe() {
                     <p>{recipe.strInstructions}</p>
                     {recipe.strYoutube ? (
                         <div className="row">
-                            <h5>Youtube Guide : </h5>
-                            <a href={recipe.strYoutube}>Video</a>
+                            <h5>
+                                Youtube Guide :
+                                <a href={recipe.strYoutube}> Video</a>
+                            </h5>
+
                             <iframe title={id} src={recipe.strYoutube}/>
                         </div>
                     ) : null}

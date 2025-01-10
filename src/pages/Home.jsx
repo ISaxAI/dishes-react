@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import {getAllCategories} from "../api";
-import {Preloader} from "../component/Preloader";
-import {CategoryList} from "../component/CategoryList";
+import {Preloader} from "../component/Preloader/Preloader";
+import {CategoryList} from "../component/CategoryList/CategoryList";
 
 function Home(){
     const [catalog, setCatalog] = useState([])

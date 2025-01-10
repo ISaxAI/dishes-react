@@ -1,13 +1,13 @@
 import './App.css';
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import {Header} from "./component/Header";
-import {Footer} from "./component/Footer";
-import {Home} from "./pages/Home";
-import {About} from "./pages/About";
-import {Contact} from "./pages/Contact";
-import {NotFound} from "./pages/NotFound";
-import {Category} from "./pages/Category";
-import {Recipe} from "./pages/Recipe";
+import {Header} from "../component/Header/Header";
+import {Footer} from "../component/Footer/Footer";
+import {Home} from "../pages/Home";
+import {About} from "../pages/About";
+import {Contact} from "../pages/Contact";
+import {NotFound} from "../pages/NotFound";
+import {Category} from "../pages/Category";
+import {Recipe} from "../pages/Recipe";
 
 function App() {
   return (

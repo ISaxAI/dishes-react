@@ -1,12 +1,13 @@
 import {Link} from "react-router-dom";
+import styles from './MealItem.module.css'
 
 function MealItem(props) {
     const {idMeal, strMeal, strMealThumb} = props
-    return (<div className='card'>
+    return (<div className={styles.card}>
             <div className='card-image'>
                 <img src={strMealThumb} alt={strMealThumb}/>
             </div>
-            <div className='card-content'>
+            <div className={styles.cardContent}>
                 <span className='card-title'>{strMeal}</span>
             </div>
             <div className='card-action'>

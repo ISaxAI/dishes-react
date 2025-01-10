@@ -1,8 +1,9 @@
 import {Link} from "react-router-dom";
+import styles from './CategoryItem.module.css'
 
 function CategoryItem(props){
     const {strCategory, strCategoryThumb, strCategoryDescription} = props
-    return (<div className='card'>
+    return (<div className={styles.card}>
         <div className='card-image'>
             <img src={strCategoryThumb} alt={strCategory} />
         </div>
