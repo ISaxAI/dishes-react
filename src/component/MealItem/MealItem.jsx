@@ -5,7 +5,7 @@ function MealItem(props) {
     const {idMeal, strMeal, strMealThumb} = props
     return (<div className={styles.card}>
             <div className='card-image'>
-                <img src={strMealThumb} alt={strMealThumb}/>
+                <img src={strMealThumb} alt={strMeal}/>
             </div>
             <div className={styles.cardContent}>
                 <span className='card-title'>{strMeal}</span>
