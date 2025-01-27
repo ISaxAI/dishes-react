@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dishes-react/static/css/main.732716ae.css",
+    "main.js": "/dishes-react/static/js/main.a938163c.js",
+    "index.html": "/dishes-react/index.html",
+    "main.732716ae.css.map": "/dishes-react/static/css/main.732716ae.css.map",
+    "main.a938163c.js.map": "/dishes-react/static/js/main.a938163c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.732716ae.css",
+    "static/js/main.a938163c.js"
+  ]
+}
